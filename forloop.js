@@ -21,3 +21,8 @@ console.log("====Method 3====")
 for (let name in studMarks){
   console.log(name , studMarks[name])
 }
+
+console.log("====Method 4====")
+for (let i=0; i < Object.keys(studMarks).length; i++){
+  console.log(studMarks[Object.keys(studMarks)[i]])
+}
