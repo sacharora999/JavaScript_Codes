@@ -73,4 +73,9 @@ let newarr = randomarr.reduce((a1,a2) => {
 })
 
 console.log(newarr)
+************************************************************************************************************
+
+window : Global Object
+DOM : Document Object Model : Javascript obj representation of html page
+BOM :  Browser Object Model : additional manipulations like prompt, alert and confirm(? true/false) and location.href
 
