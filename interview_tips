@@ -1,0 +1,23 @@
+let myarr = [10,11,12,13,14]
+let newarr = [1,2,3,4,5]
+
+delete myarr[0];
+
+console.log(myarr)  // elem is deleted but still the same length
+
+************************************************************************************************************
+let unsortedarr = [123,234,543,321,125,7,1,2,3,8,90]
+unsortedarr.sort().       // sort alphabatically
+console.log(unsortedarr)
+
+
+then how to sort array :
+const compare =(a,b)=> 
+{
+  return a-b
+}
+
+let unsortedarr = [123,234,543,321,125,7,1,2,3,8,90]
+unsortedarr.sort(compare)
+console.log(unsortedarr)
+************************************************************************************************************
