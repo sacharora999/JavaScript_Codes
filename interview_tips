@@ -20,4 +20,27 @@ const compare =(a,b)=>
 let unsortedarr = [123,234,543,321,125,7,1,2,3,8,90]
 unsortedarr.sort(compare)
 console.log(unsortedarr)
+
+splice array 
+
+let randomarr = [12,13,16,15,14]
+
+
+randomarr.splice(2,1,1011,1012,1013)
+console.log(randomarr)
+
+[
+    12,   13, 1011,
+  1012, 1013,   15,
+    14
+]
+
+slice array 
+let randomarr = [12,13,16,15,14]
+newarr = randomarr.slice(0,2)
+console.log(newarr)
+
+[ 12, 13 ]
 ************************************************************************************************************
+
+pop, push, sort, reverse, splice (return deleted items and modify source array) ===> effect original array 
