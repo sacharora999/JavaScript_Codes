@@ -44,3 +44,33 @@ console.log(newarr)
 ************************************************************************************************************
 
 pop, push, sort, reverse, splice (return deleted items and modify source array) ===> effect original array 
+
+
+
+map method
+let randomarr = [12,13,16,15,14]
+
+randomarr.map((value, index, array) => {
+  console.log(value*2)
+})
+
+
+filter method 
+
+let newarr = randomarr.filter((elmn) =>{
+  return elmn < 15
+})
+console.log(newarr)
+
+
+reduce method 
+
+let randomarr = [12,13,16,15,14]
+
+
+let newarr = randomarr.reduce((a1,a2) => {
+  return a1+a2
+})
+
+console.log(newarr)
+
