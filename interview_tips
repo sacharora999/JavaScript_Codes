@@ -89,6 +89,8 @@ console.log(document.getElementsByTagName('span')[0]) >> retrun content of firsr
 tagName.  : checks for HTML Tag
 nodeName. : checks for any node , text node, comment node
 
+outerHTML : inner HTML + elements
+
 
 
 
