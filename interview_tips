@@ -79,3 +79,18 @@ window : Global Object
 DOM : Document Object Model : Javascript obj representation of html page
 BOM :  Browser Object Model : additional manipulations like prompt, alert and confirm(? true/false) and location.href
 
+
+
+************************************************************************************************************
+
+console.dir(document.getElementsByTagName('span')[0]) >> returns JS Object
+console.log(document.getElementsByTagName('span')[0]) >> retrun content of firsrt span
+
+tagName.  : checks for HTML Tag
+nodeName. : checks for any node , text node, comment node
+
+
+
+
+
+
