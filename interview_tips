@@ -90,6 +90,7 @@ tagName.  : checks for HTML Tag
 nodeName. : checks for any node , text node, comment node
 
 outerHTML : inner HTML + elements
+first.hidden = false
 
 
 
