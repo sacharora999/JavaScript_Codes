@@ -114,6 +114,35 @@ console.log("Second Hello")
 console.log(promise)
 
 
+Promise Example :
+let p1 = new Promise((resolve, reject) =>{
+  console.log("I am pending promise")
+  setTimeout(() =>{
+    console.log("I am resolved promise")
+    resolve(true)
+  }, 5000)
+})
+
+
+let p2 = new Promise((resolve, reject) =>{
+  console.log("I am pending promise")
+  setTimeout(() =>{
+    console.log("I am rejecteed promise")
+    reject(new Error("I am rejected promise"))
+  }, 5000)
+})
+
+
+p1.then((res) => {
+  console.log("Promise Fulfilled")
+})
+
+
+p2.catch((err) => {
+  console.log("I am fulfilled but I am rejected")
+})
+
+
 
 
 
