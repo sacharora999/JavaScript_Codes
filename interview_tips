@@ -92,6 +92,10 @@ nodeName. : checks for any node , text node, comment node
 outerHTML : inner HTML + elements
 first.hidden = false
 
+***********************************************************************************************************
+
+callback hell, pyramid of doom >> callback within callback >> solution >> Promise (of execution of code in parallel)
+
 
 
 
