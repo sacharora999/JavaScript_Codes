@@ -97,6 +97,23 @@ first.hidden = false
 callback hell, pyramid of doom >> callback within callback >> solution >> Promise (of execution of code in parallel)
 
 
+let promise = new Promise(function(resolve, reject) {
+      alert("Hello from Promise");
+      resolve(100);
+});
+
+console.log("First Hello")
+
+setTimeout(function() {
+  console.log("Third Hello")
+}, 3000);
+
+
+console.log("Second Hello")
+
+console.log(promise)
+
+
 
 
 
